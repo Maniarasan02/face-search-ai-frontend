@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="fav.png" type="image/x-icon">
+  
+  <title>FaceSearch AI</title>
+  <link rel="stylesheet" href="./style.css">
+ 
+</head>
+<body>
+  <header class="header">
+    <h1>FaceSearch AI</h1>
+    <p>Find faces with ease using AI-powered search</p>
+  </header>
+
+  <main>
+    <section class="search">
+      <h2>Upload Image to Search</h2>
+      <input type="file" id="imageUpload" accept="image/*">
+      <button onclick="searchImage()">Search</button>
+      <div id="results"></div>
+    </section>
+
+    <section class="features">
+      <h2>Features</h2>
+      <ul>
+        <li>AI-driven face recognition</li>
+        <li>Fast and accurate results</li>
+        <li>Easy integration with your applications</li>
+      </ul>
+    </section>
+
+    <section class="payment">
+      <h2>Subscribe for Premium Features</h2>
+      <button onclick="checkout()">Subscribe</button>
+
+    </section>
+  </main>
+
+  <script src="./app.js"></script>
+</body>
+</html>

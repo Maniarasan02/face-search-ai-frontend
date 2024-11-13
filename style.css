@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f4f9f9;
+    color: #333;
+    font-size: 1.1em;
+  }
+  
+  .header {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .search, .features, .payment {
+    padding: 2rem;
+    max-width: 600px;
+    margin: 2rem auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search input {
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 0.8rem 1.5rem;
+    background-color: #ff7e5f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #feb47b;
+  }
+  
+  .features ul {
+    list-style: none;
+    margin-top: 1rem;
+  }
+  
+  .features li {
+    padding: 0.5rem 0;
+    font-size: 1.1rem;
+  }
+  
